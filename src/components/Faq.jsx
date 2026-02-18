@@ -33,13 +33,6 @@ const FAQ = () => {
 
   return (
     <section id="faq" className="py-24 bg-white">
-      <style>{`
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-                #faq * {
-                    font-family: 'Poppins', sans-serif;
-                }
-            `}</style>
-
       <div className="flex flex-col items-center text-center text-slate-800 px-6">
         <p className="text-base font-medium text-pink-500 uppercase tracking-wide">
           Common Questions
@@ -95,7 +88,7 @@ const FAQ = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="text-sm text-slate-600 p-5 pt-2 leading-relaxed">
+                <p className="-mt-10 text-sm text-slate-600 p-5 pt-2 leading-relaxed">
                   {faq.answer}
                 </p>
               </div>

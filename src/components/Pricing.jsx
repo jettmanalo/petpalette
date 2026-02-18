@@ -54,7 +54,7 @@ const Pricing = () => {
   };
 
   return (
-    <section id="pricing" className="bg-pink-500 py-24 px-6 md:px-16">
+    <section id="pricing" className="bg-pink-500 py-24 px-6 md:px-16 bg-white!">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -89,7 +89,7 @@ const Pricing = () => {
                 {plan.description}
               </p>
 
-              <ul className="space-y-4 mb-10 grow">
+              <ul className="-space-y-4 mb-10 grow">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
                     <svg

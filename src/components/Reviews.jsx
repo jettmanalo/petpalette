@@ -31,7 +31,7 @@ export default function Reviews() {
         What Our <span className="text-pink-500">Pet Parents</span> Say
       </h2>
 
-      <div className="flex flex-wrap items-center justify-center gap-6 px-4">
+      <div className="flex flex-nowrap items-center justify-center gap-6 px-4">
         {reviews.map((review, index) => (
           <div
             key={index}
@@ -45,7 +45,7 @@ export default function Reviews() {
                 alt={review.name}
               />
               <div>
-                <h1 className="text-lg font-medium text-gray-800">
+                <h1 className="text-lg font-medum text-gray-800">
                   {review.name}
                 </h1>
                 <p className="text-gray-800/80">{review.role}</p>

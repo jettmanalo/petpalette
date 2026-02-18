@@ -47,7 +47,7 @@ const Hero = () => {
 
           <div className="flex flex-col md:flex-row items-center mt-10 gap-4">
             <button
-              className="bg-pink-500 text-white px-8 py-3.5 rounded-full text-sm font-semibold flex items-center space-x-2 hover:bg-pink-600 transition shadow-lg shadow-pink-200"
+              className="bg-pink-500 text-white px-8 py-3.5 rounded-full text-sm font-semibold flex items-center space-x-2 hover:bg-pink-600 transition shadow-lg shadow-pink-200 md:!invisible"
               type="button"
             >
               <span>Browse Styles</span>

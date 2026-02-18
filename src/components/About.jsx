@@ -151,7 +151,7 @@ const About = () => {
           celebrate the animals that make our houses feel like homes.
         </p>
 
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 pt-20">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-16 pt-20">
           {values.map((value, index) => (
             <div key={index} className="group">
               <div className="size-12 flex items-center justify-center bg-pink-50 border border-pink-100 rounded-xl text-pink-500 group-hover:bg-pink-500 group-hover:text-white transition-all duration-300">
@@ -161,7 +161,7 @@ const About = () => {
                 <h3 className="text-lg font-bold text-gray-900">
                   {value.title}
                 </h3>
-                <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+                <p className="text-sm text-gray-50 mt-2 leading-relaxed">
                   {value.description}
                 </p>
               </div>

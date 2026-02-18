@@ -105,7 +105,7 @@ const Features = () => {
               key={index}
               className="max-w-80 group p-8 rounded-2xl border border-gray-100 hover:border-pink-200 hover:bg-pink-50/30 transition-all duration-300"
             >
-              <div className="w-14 h-14 bg-pink-100 text-pink-500 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pink-500 group-hover:text-white transition-colors duration-300">
+              <div className="w-14 h-14 bg-pink-100 text-pink-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-pink-500 group-hover:text-white transition-colors duration-300">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-gray-900 group-hover:text-pink-600 transition-colors">

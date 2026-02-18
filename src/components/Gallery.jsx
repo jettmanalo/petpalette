@@ -51,7 +51,7 @@ const Gallery = () => {
           {petPortraits.map((pet, index) => (
             <div
               key={index}
-              className="relative rounded-2xl overflow-hidden shadow-lg border-4 border-white"
+              className="absolute rounded-2xl overflow-hidden shadow-lg border-4 border-white"
             >
               <img
                 src={pet.url}

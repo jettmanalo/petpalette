@@ -3,14 +3,6 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <style>{`
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-                
-                #footer-section * {
-                    font-family: 'Poppins', sans-serif;
-                }
-            `}</style>
-
       <footer
         id="footer-section"
         className="flex flex-col items-center justify-center w-full py-20 bg-gradient-to-b from-pink-500 to-pink-700 text-white/90"

@@ -25,7 +25,7 @@ const Navbar = () => {
       </a>
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex items-center gap-8 text-gray-600 text-sm font-medium">
+      <nav className="hidden md:flex items-center gap-0 text-gray-600 text-sm font-medium">
         {navLinks.map((link) => (
           <a
             key={link.name}
